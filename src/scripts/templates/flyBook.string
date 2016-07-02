@@ -1,0 +1,72 @@
+<div class="f-home">
+	<div class="f-nav">
+		<ul>
+			<li>漂流书社</li>
+			<li>
+				<i class="yo-ico">
+       				&#xe614;
+       			</i>
+       		</li>
+		</ul>
+			
+	</div>
+	<section spa-widget="scroll">
+		<div>
+			<div class="tj-book">
+				<ul class="top">
+					<li>
+						<i>
+							<img src="/bkHouse/images/group_top_view.png"/>
+						</i>
+					</li>
+					<li>
+						推荐书社
+					</li>
+					<li>
+						<i>更多书社></i>
+					</li>
+				</ul>
+				<ul class="bottom">
+					<li>
+						<i>
+							<img src="/bkHouse/images/tj1.png"/>
+						</i>
+					</li>
+					<li>
+						<p>涵知书社</p>
+						<p>欢迎加入涵知书社</p>
+					</li>
+					<li>7.2km</li>
+				</ul>
+			</div>
+			<div class="h10"></div>
+			<div class="m-book">
+				<ul>
+					<li>
+						<i>
+							<img src="/bkHouse/images/group_top_view.png"/>
+						</i>
+					</li>
+					<li>
+						我的书社
+					</li>
+				</ul>
+			</div>
+			<div class="h30"></div>
+			<div class="join">
+				<i>
+					<img src="/bkHouse/images/join_group_no.png"/>
+				</i>
+				<p>快加入书社和书友嗨起来</p>
+			</div>
+		</div>
+	</section>
+	<div class="yo-loading" ms-visible="isShowLoading">
+      <div class="inner">
+      	<i class="yo-ico">
+      		<!--<img src="/bkHouse/images/loading_progress.png"/>-->
+      	</i>
+      	<span>加载中...</span>
+      </div>
+    </div>
+</div>

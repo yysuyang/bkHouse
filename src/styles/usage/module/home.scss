@@ -1,0 +1,241 @@
+.m-index{
+    .l-container{
+        .m-home{
+             width:100%;
+             @include flexbox();
+             @include flex-direction(column);
+             height: 100%;
+              > * {
+                width: 100%;
+              }
+             header{
+                width:100%;
+                height:.50rem;
+                background:#fed846;
+                ul{
+                    width:100%;
+                    height:100%;
+                    @include flexbox();
+                    height: 100%;
+                    li{
+                        height: 100%;
+                        &:not(:nth-child(2)) {
+                            width: .50rem;
+                            text-align: center;
+                            color: #000;
+                            @include flexbox();
+                            @include flex-direction(column);
+                            i{
+                               font-size: .20rem;
+                               line-height: .30rem;
+                            }
+                            P{
+                                font-size: .08rem;
+                            }                    
+                            
+                        }
+                        &:nth-child(3) {
+                          i{
+                               font-size: .20rem;
+                               line-height: .50rem;
+                            }  
+                         }
+                        &:nth-child(2) {
+                            @include flex(1);
+                            width:100%;   
+                            @include flexbox();
+                            @include align-items(center);
+                            input{
+                              width:100%;
+                              height:.25rem;
+                              @include border-radius(.1rem);
+                              padding:0 .05rem 0 .05rem;
+                            }
+                        }
+            
+                        
+                    }
+                }
+            }
+            
+            section{
+               @include flex(1);
+                background:#f0f0f0;
+                height:100%;
+                width:100%;
+                overflow: hidden;
+                @include flexbox();
+                @include flex-direction(column);
+                // iscroll pull to refresh
+                .head {
+                    //position: absolute;
+                    //top:-12px;
+                    text-align: center;
+                    height: .3rem;
+                    line-height: .3rem;
+                }
+                .head img {
+                    display: inline-block;
+                    transform: rotate(180deg);
+                    -webkit-transform: rotate(180deg);
+                    transition: transform 500ms;
+                    -webkit-transition: transform 500ms;
+                    height: .15rem;
+                    width: .15rem;
+                }
+                
+                .up {
+                    transform: rotate(360deg) !important;
+                    -webkit-transform: rotate(360deg) !important;
+                }
+                
+                .foot {
+                    text-align: center;
+                    height: .3rem;
+                    line-height: .3rem;
+                }
+                .foot img {
+                    display: inline-block;
+                    /*transform: rotate(0deg);*/
+                    /*-webkit-transform: rotate(0deg);*/
+                    transition: transform 150ms;
+                    -webkit-transition: transform 150ms;
+                    height: .15rem;
+                    width: .15rem;
+                }
+                .down {
+                    transform: rotate(180deg) !important;
+                    -webkit-transform: rotate(180deg) !important;
+                }   
+                .banner{
+                   //width:100%;
+                   //height:1.82rem;
+                   .swiper-container{
+                       width:100%;
+                       height:1.82rem;
+                       img{
+                           width:100%;
+                           height:100%;
+                       }
+                   }
+                }
+//                 .guide1{
+//                     width:100%;
+//                     height:1.82rem;
+//                     .swiper-slide{
+//                         width:90px;
+//                         height:120px;
+//                         img{
+//                            width:90px;
+//                            height:120px;
+//                         }
+//                     }
+//                 }
+
+                .booklist{
+                    @include flex(1);
+                    width:100%;
+                    height:100%;
+                    @include box-sizing(border-box);
+                    padding:(.1rem);
+                    @include flexbox();
+                    @include flex-direction(column);
+                    overflow: hidden;
+                    .list{ 
+                       width:100%;
+                       height:2.45rem;
+                       background:#fff;
+                       @include box-sizing(border-box);
+                       padding:.1rem;
+                       margin-bottom:.1rem;
+                       .top{
+                           @include flexbox();
+                           height:.60rem;
+                           .icon{
+                               width:.44rem;
+                               height:.44rem;
+                               img{
+                                  width:100%;
+                                  height:100%; 
+                               }
+                           }
+                           .title{
+                               @include flex(1);
+                               @include flexbox();
+                               @include flex-direction(column);
+                               height:100%;
+                               p{
+                                   width:100%; 
+                                   font-size:14px; 
+                                   overflow: hidden;
+                                   text-overflow: ellipsis;
+                                   white-space:nowrap;
+                                   &.gray{
+//                                     font-size:8px;
+                                        color:#a7a7a7;
+
+                                    }
+                               }
+                           }
+                       }
+                        .guide1{
+                           width:100%;
+                           height:1.50rem;
+                           @include flexbox();
+                           
+                           .swiper-slide{
+                               @include flex(1);
+                               //width:.90rem;
+                               height:1.50rem;
+                               img{
+                                  width:90px;
+                                  height:120px;
+                               }
+                               p{
+                                   width:.90rem;
+                               }
+                               
+                           }
+                        }
+//                      .container{ 
+//                          width:100%;
+//                          overflow: hidden;
+//                          ul{  
+//                              @include flexbox();
+//                              width: 5rem;
+//                              li{ 
+//
+//                                  img{
+//                                      width:90px;
+//                                      height:120px;
+//                                     }
+//                                  p{
+//                                      font-size: 12px;    
+//                                  }    
+//                              }
+//                          }
+//                      }
+                       .address{   
+                           width:100%;
+                           height:.15rem;
+                           img{
+                               height:100%;
+                            }
+                            i{
+                                font-size:12px;
+                                color:#72bfe8;
+                            }
+                       }
+                       
+                    }
+                }
+               
+               
+            }
+        }
+    }
+    
+               
+                
+    
+}

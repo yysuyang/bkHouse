@@ -1,0 +1,122 @@
+.r-home{
+        @include flexbox();
+        @include flex-direction(column);
+        width:100%;
+        height:100%;
+        font-weight:600;
+        header{
+                width:100%;
+                height:.50rem;
+                background:#fed846;
+                ul{
+                    @include flexbox();
+                    height:100%;
+                    li{
+                        height: 100%;
+                        &:not(:nth-child(2)){
+                            width: .50rem;
+                            text-align: center;
+                            color: #000;
+                            i{
+                               height: 100%;
+                               font-size: 25px;
+                               line-height: .50rem;
+                            }    
+                        }
+                        &:nth-child(2) {
+                            @include flex(1);
+                            width:100%; 
+                            font-size: 15px;
+                            text-align: center; 
+                            line-height: .50rem; 
+                            font-weight:600;                          
+                        }
+            
+                        
+                    }
+                }
+        }
+        section{
+            @include flex(1);
+            width:100%;
+            padding:(.20rem);
+            @include box-sizing(border-box);
+            form{
+                .wrap{
+                    @include border-radius(.1rem);
+                    overflow: hidden;
+                    .h1{
+                        height:.01rem;
+                    }
+                    .phone-number,.yzm,.pwd,.kouhao{
+                        @include flexbox();
+                        width:100%;
+                        height:.49rem;
+                        background:#fff;
+                        padding:(.13rem);
+                        @include box-sizing(border-box);
+                        i{
+                            display: inline-block;
+                            width:.42rem;
+                            height:.22rem;
+                            padding:(0 .13rem 0 .13rem);
+                            @include box-sizing(border-box);
+                            img{
+                                width:100%;
+                                height:100%;
+                            }
+                            &.small{    
+                                img{
+                                    width:100%;
+                                    height:50%;
+                                }
+                            }
+                            
+                        }
+                        span{
+                            @include border-radius(.05rem);
+                            display:inline-block;
+                            width:.73rem;
+                            height:.32rem;
+                            background:#feeba2;
+                            font-size:.12rem;
+                            line-height:.32rem;
+                            text-align: center;
+                        }
+                        input{
+                            @include flex(1);
+                            height:.22rem;
+                            background:#fff;
+                            border: none;
+                            padding:(0 .13rem 0 .13rem);
+                            @include box-sizing(border-box);
+                            color:#c9c9c9;
+                        }
+                        
+                    }
+                    
+                }
+                .invite{
+                    width:100%;
+                    font-size:8px;
+                    line-height:.40rem;
+                    color:red;
+                    text-align: left;
+                    text-indent:.15rem;
+                }
+                .h30{
+                    height:.30rem;
+                }
+                .clickregister{
+                    width:95%;
+                    height:.40rem;
+                    margin:0 auto;
+                    @include border-radius(.07rem);
+                    line-height:.40rem;
+                    background:#fed846;
+                    text-align:center;
+                }
+                
+            }
+        }
+}

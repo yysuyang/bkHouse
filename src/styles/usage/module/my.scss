@@ -1,0 +1,122 @@
+.m-index{
+    .l-container{
+        .my-home{
+            @include flexbox();
+            @include flex-direction(column);
+            width:100%;
+            height: 100%;
+            .my-nav{   
+                width:100%;
+                height:1.50rem;
+                background:url(/bkHouse/images/bg_mine.png) no-repeat center center;
+                background-size:cover;
+                .wrap-pc{
+                    @include flexbox();
+                    height:100%; 
+                    @include align-items(center);
+                    @include justify-content(center); 
+                    i{  
+                        width:.50rem;
+                        height:.50rem;
+                        @include border-radius(50%); 
+                        img{
+                            width:100%;
+                            height:100%;
+                        }
+                    }
+                }
+            }
+            section{
+                width:100%;
+                .h7{
+                    height:.07rem;
+                }
+                .my-bag,.my-share,.my-deal{
+                    height:.50rem;
+                    background:#fff;
+                    ul{   
+                        @include flexbox();
+                        height:.46rem;
+                        padding:(.10rem .25rem .10rem .25rem);
+                        @include box-sizing(border-box);
+                        @include align-items(center);
+                        @include justify-content(center);  
+                        li{
+                            height:.23rem;
+                            &:nth-child(1){
+                               width:.22rem;
+                               height:.22rem;
+                                img{
+                                    width:100%;
+                                    height:100%;
+                                }  
+                            }
+                            &:nth-child(2){
+                               @include flex(1);
+                               text-indent: .20rem;
+                               color:#a7a7a7;
+                               font-weight:600;
+                               font-size: 12px;
+                            }
+                            &:nth-child(3){
+                                width:.24rem;
+                            }
+                            &:nth-child(4){
+                                width:.08rem;
+                                img{
+                                    width:100%;
+                                }
+                            }
+                        }
+                    }
+                }
+                .my-content{
+                    height:2.50rem;
+                    background:#fff;
+                    .h80{
+                        width:95%;
+                        height:.01rem;
+                        background:#ddd;
+                        margin:0 auto;
+                    }
+                    ul{
+                        @include flexbox();
+                        padding:(.10rem .25rem .10rem .25rem);
+                        @include box-sizing(border-box);
+                        height:.50rem;
+                        @include align-items(center);
+                        @include justify-content(center);
+                        li{
+                            height:.23rem; 
+                            &:nth-child(1){
+                               width:.22rem;
+                                img{
+                                    width:100%;
+                                    height:100%;
+                                }  
+                            }
+                            &:nth-child(2){
+                               @include flex(1);
+                               text-indent: .20rem;
+                               color:#a7a7a7;
+                               font-weight:600;
+                               font-size: 12px;
+                            }
+                            &:nth-child(3){
+                                width:.24rem;
+                            }
+                            &:nth-child(4){
+                                width:.08rem;
+                                img{
+                                    width:100%;
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+            }
+           
+        }
+    }
+}

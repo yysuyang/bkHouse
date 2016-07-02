@@ -1,0 +1,54 @@
+<div class="r-home">
+    <header>
+       	<ul>
+       		<li action-type="back">
+       			<i class="yo-ico">
+       				&#xe629;
+       			</i>
+       		</li>
+       		<li>
+       			登陆
+       		</li>
+       		<li></li>
+       	</ul>
+    </header>
+    <section>
+    	<form>
+    		<div class="wrap">
+    			<div class="phone-number">
+    				<i>
+    					<img src="/bkHouse/images/register_telphone.png"/>
+    				</i>
+    				<input type="text" placeholder="请输入手机号"/>
+    			</div>
+    			<div class="h1"></div>
+    			<div class="yzm">
+    				<i>
+    					<img src="/bkHouse/images/register_code.png"/>
+    				</i>
+    				<input type="text" placeholder="请输入验证码"/>
+    				<span>获取验证码</span>
+    			</div>
+    			<div class="h1"></div>
+    			<div class="pwd">
+    				<i>
+    					<img src="/bkHouse/images/login_pwd.png"/>
+    				</i>
+    				<input type="text" placeholder="请输入密码"/>
+    				<i class="small">
+    					<img src="/bkHouse/images/login_no_look.png"/>
+    				</i>
+    			</div>
+    			<div class="h1"></div>
+    			<div class="kouhao">
+    				<input type="text" placeholder="顺便给自己起一个响亮的称号吧"/>
+    			</div>
+    		</div>
+    		<p class="invite">邀请注册？</p>
+    		<div class="h30"></div>
+    		<div class="clickregister">
+    			<b>注册</b>
+    		</div>
+    	</form>
+    </section>
+</div>

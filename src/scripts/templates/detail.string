@@ -1,0 +1,169 @@
+<div class="d-home">
+    <header>
+       	<ul>
+       		<li action-type="back">
+       			<i class="yo-ico">
+       				&#xe629;
+       			</i>
+       		</li>
+       		<li>
+       			图书
+       		</li>
+       		<li>
+       			<i class="yo-ico">
+       			&#xe618;
+       			</i>
+       		</li>
+       	</ul>
+    </header>
+    <section spa-widget="scroll">
+    	<div>
+	    	<div class="introduce">
+	    		<div class="book">
+	    			<img src="/bkHouse/images/detail1.png"/>
+	    		</div>
+	    		<div class="describe">
+	    			<p>全国计算机等级考试二级模拟试题</p>
+	    			<p class="small">作者：全国计算机等级研究所主任刘鹏</p>
+	    			<p class="small double">
+	    				<em>原价：21.80</em>
+	    				<i><img src="/bkHouse/images/detail_book_detail.png"/></i>
+	    			</p>
+	    		</div>
+	    	</div>
+	    	<div class="container">
+	    		<div class="list">
+	    			<div class="top">
+	    				<ul>
+	    					<li>
+	    						<img src="/bkHouse/images/dicon1.png"/>
+	    					</li>
+	    					<li>
+	    						<p class="sc">山东科技大学</p>
+	    						<p class="time gray">4小时前</p>
+	    					</li>
+	    					<li>
+	    						<p class="price">￥6.00</p>
+	    						<p class="number gray">共一本</p>
+	    					</li>
+	    				</ul>
+	    				<p class="address">
+	    					<i>
+	    						<img src="/bkHouse/images/icon_group.png"/>
+	    					</i>
+	    					<em >青岛|山东科技大学</em>
+	    				</p>
+	    			</div>
+	    			<div class="bottom">
+		    			<ul>
+		    				<li>
+		    					<i>
+		    						<img src="/bkHouse/images/detail_talk.png"/>
+		    					</i>
+		    					<em>&nbsp;&nbsp;聊天</em>
+		    				</li>
+		    				<li>
+		    					<i>
+		    						<img src="/bkHouse/images/detail_buy.png"/>
+		    					</i>
+		    					
+		    					<em>&nbsp;&nbsp;购买</em>
+		    				</li>
+		    			</ul>
+	    			</div>
+	    		</div>
+	    		<div class="h10"></div>
+	    		<div class="list">
+	    			<div class="top">
+	    				<ul>
+	    					<li>
+	    						<img src="/bkHouse/images/dicon1.png"/>
+	    					</li>
+	    					<li>
+	    						<p class="sc">山东科技大学</p>
+	    						<p class="time gray">4小时前</p>
+	    					</li>
+	    					<li>
+	    						<p class="price">￥6.00</p>
+	    						<p class="number gray">共一本</p>
+	    					</li>
+	    				</ul>
+	    				<p class="address">
+	    					<i>
+	    						<img src="/bkHouse/images/icon_group.png"/>
+	    					</i>
+	    					<em >青岛|山东科技大学</em>
+	    				</p>
+	    			</div>
+	    			<div class="bottom">
+		    			<ul>
+		    				<li>
+		    					<i>
+		    						<img src="/bkHouse/images/detail_talk.png"/>
+		    					</i>
+		    					<em>&nbsp;&nbsp;聊天</em>
+		    				</li>
+		    				<li>
+		    					<i>
+		    						<img src="/bkHouse/images/detail_buy.png"/>
+		    					</i>
+		    					
+		    					<em>&nbsp;&nbsp;购买</em>
+		    				</li>
+		    			</ul>
+	    			</div>
+	    		</div>
+	    		<div class="h10"></div>
+	    		<div class="list">
+	    			<div class="top">
+	    				<ul>
+	    					<li>
+	    						<img src="/bkHouse/images/dicon1.png"/>
+	    					</li>
+	    					<li>
+	    						<p class="sc">山东科技大学</p>
+	    						<p class="time gray">4小时前</p>
+	    					</li>
+	    					<li>
+	    						<p class="price">￥6.00</p>
+	    						<p class="number gray">共一本</p>
+	    					</li>
+	    				</ul>
+	    				<p class="address">
+	    					<i>
+	    						<img src="/bkHouse/images/icon_group.png"/>
+	    					</i>
+	    					<em >青岛|山东科技大学</em>
+	    				</p>
+	    			</div>
+	    			<div class="bottom">
+		    			<ul>
+		    				<li>
+		    					<i>
+		    						<img src="/bkHouse/images/detail_talk.png"/>
+		    					</i>
+		    					<em>&nbsp;&nbsp;聊天</em>
+		    				</li>
+		    				<li>
+		    					<i>
+		    						<img src="/bkHouse/images/detail_buy.png"/>
+		    					</i>
+		    					
+		    					<em>&nbsp;&nbsp;购买</em>
+		    				</li>
+		    			</ul>
+	    			</div>
+	    		</div>
+	    		
+	    		
+	    	</div>
+	    	<div class="foot">
+	           <img src="/bkHouse/images/default_ptr_rotate.png" width="40" height="40"/>
+	           <span>上拉刷新...</span>
+        	</div>
+    	</div>
+    </section>
+    <div class="send">
+    	<img src="/bkHouse/images/detail_release_unclick.png"/>
+    </div>	
+</div>

@@ -1,0 +1,64 @@
+<div class="l-home">
+    <header>
+       	<ul>
+       		<li action-type="back">
+       			<i class="yo-ico">
+       				&#xe629;
+       			</i>
+       		</li>
+       		<li>
+       			登陆
+       		</li>
+       		<li></li>
+       	</ul>
+    </header>
+    <section>
+    	<form>
+    		<div class="wrap">
+	    		<div class="name">
+	    			<i>
+	    				<img src="/bkHouse/images/login_user.png"/>
+	    			</i>
+	    			<input type="text" placeholder="手机号"/>
+	    		</div>
+	    		<div class="h1"></div>
+	    		<div class="pwd" />
+	    			<i>
+	    				<img src="/bkHouse/images/login_pwd.png"/>
+	    			</i>
+	    			<input type="text" placeholder="密码"/>
+	    			<i>
+	    				<img src="/bkHouse/images/login_no_look.png"/>
+	    			</i>
+	    		</div>
+    		</div>
+    		<p class="remind">您输入的手机号或密码有误</p>
+    		<!--<div class="h15"></div>-->
+    		<div class="clicklogin">
+    			<b>登陆</b>
+    		</div>
+    		<div class="h15"></div>
+    		<div class="clicklogin">
+    			<b>快速注册</b>
+    		</div>
+    		<div class="h15"></div>
+    		<p>忘记密码</p>
+    	</form>
+    	
+    </section>
+    <footer>
+    	<p>使用其他账号登陆</p>
+    	<ul>
+    		<li></li>
+    		<li>
+    			<i><img src="/bkHouse/images/login_qq.png"/> </i>
+    		</li>
+    		<li>
+    			<i>
+    				<img src="/bkHouse/images/login_wechat.png"/>
+    			</i>
+    		</li>
+    		<li></li>
+    	</ul>
+    </footer>
+</div>

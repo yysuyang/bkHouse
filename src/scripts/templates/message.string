@@ -1,0 +1,19 @@
+<div class="message-home">
+	<div class="m-nav">
+			信息		
+	</div>
+	<section>
+		<div class="bk-house">
+			<ul>
+				<li>
+					<i>
+						<img src="/bkHouse/images/ic_launcher.png"/>
+					</i>
+				</li>
+				<li>
+					<i>贝壳书社</i><em>官方</em>
+				</li>
+			</ul>
+		</div>
+	</section>
+</div>

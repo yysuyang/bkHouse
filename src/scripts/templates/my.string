@@ -1,0 +1,109 @@
+<div class="my-home" spa-widget="scroll">
+	<div>
+	<div class="my-nav">
+		<div class="wrap-pc">
+			<i>
+				<img src="/bkHouse/images/default_icon.png"/>
+			</i>
+		</div>
+	</div>
+	<section>
+		<div class="h7"></div>
+		<div class="my-bag">
+			<ul>
+				<li>
+					<img src="/bkHouse/images/mine_book_wallet.png"/>
+				</li>
+				<li>钱包</li>
+				<li>0</li>
+				<li>
+					<img src="/bkHouse/images/mine_book_go.png"/>
+				</li>
+			</ul>
+		</div>
+		<div class="h7"></div>
+		<div class="my-content">
+			<ul>
+				<li>
+					<img src="/bkHouse/images/mine_book_online.png"/>
+				</li>
+				<li>在架书籍</li>
+				<li>0</li>
+				<li>
+					<img src="/bkHouse/images/mine_book_go.png"/>
+				</li>
+			</ul>
+			<div class="h80"></div>
+			<ul>
+				<li>
+					<img src="/bkHouse/images/mine_book_buy.png"/>
+				</li>
+				<li>购入书籍</li>
+				<li>0</li>
+				<li>
+					<img src="/bkHouse/images/mine_book_go.png"/>
+				</li>
+			</ul>
+			<div class="h80"></div>
+			<ul>
+				<li>
+					<img src="/bkHouse/images/mine_book_sale.png"/>
+				</li>
+				<li>售出书籍</li>
+				<li>0</li>
+				<li>
+					<img src="/bkHouse/images/mine_book_go.png"/>
+				</li>
+			</ul>
+			<div class="h80"></div>
+			<ul>
+				<li>
+					<img src="/bkHouse/images/mine_book_like.png"/>
+				</li>
+				<li>求购书籍</li>
+				<li>0</li>
+				<li>
+					<img src="/bkHouse/images/mine_book_go.png"/>
+				</li>
+			</ul>
+			<div class="h80"></div>
+			<ul>
+				<li>
+					<img src="/bkHouse/images/mine_book_drift.png"/>
+				</li>
+				<li>图书漂流</li>
+				<li>0</li>
+				<li>
+					<img src="/bkHouse/images/mine_book_go.png"/>
+				</li>
+			</ul>
+		</div>
+		<div class="h7"></div>
+		<div class="my-share">
+			<ul>
+				<li>
+					<img src="/bkHouse/images/mine_book_share.png"/>
+				</li>
+				<li>分享</li>
+				<li>0</li>
+				<li>
+					<img src="/bkHouse/images/mine_book_go.png"/>
+				</li>
+			</ul>
+		</div>
+		<div class="h7"></div>
+		<div class="my-deal">
+			<ul>
+				<li>
+					<img src="/bkHouse/images/mine_book_setting.png"/>
+				</li>
+				<li>设置</li>
+				<li>0</li>
+				<li>
+					<img src="/bkHouse/images/mine_book_go.png"/>
+				</li>
+			</ul>
+		</div>
+	</section>
+	</div>
+</div>

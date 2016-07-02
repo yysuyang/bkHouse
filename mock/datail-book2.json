@@ -1,0 +1,11 @@
+{
+  "res": true,
+  "errcode": -1,
+  "errmsg": "",
+  "data": {
+      "imgsrc": "/bkHouse/images/book2.png",
+      "ptext1": "全国计算机等级考试二级模拟试题",
+      "ptext2": "作者：全国计算机等级研究所主任刘鹏",
+      "icon1": "/bkHouse/images/detail_book_detail.png"
+    }
+}

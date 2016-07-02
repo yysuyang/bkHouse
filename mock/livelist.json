@@ -1,0 +1,50 @@
+{
+  "res": true,
+  "errcode": -1,
+  "errmsg": "",
+  "data": [
+    { 
+      "id": 1,
+      "icon1": "/bkHouse/images/icon1.png",
+      "describe": "青岛理工大学,贝壳舍青岛理工大学青岛理工大学,贝壳舍青岛理工大学",
+      "number": "发布了546本书籍",
+      "imgsrc1": "/bkHouse/images/detail1.png",
+      "imgsrc2": "/bkHouse/images/book1.png",
+      "imgsrc3": "/bkHouse/images/book2.png",
+      "imgsrc4": "/bkHouse/images/book3.png",
+      "imgsrc5": "/bkHouse/images/shouye_detail_more.png",
+      "title": "书名",
+      "address": "/bkHouse/images/icon_group.png",
+      "school": "青岛|山东科技大学"
+    },
+    {  
+    	"id": 2, 
+      "icon1": "/bkHouse/images/icon3.png",
+      "describe": "青岛理工大学,贝壳舍青岛理工大学青岛理工大学,贝壳舍青岛理工大学",
+      "number": "发布了546本书籍",
+      "imgsrc1": "/bkHouse/images/book1.png",
+      "imgsrc2": "/bkHouse/images/book2.png",
+      "imgsrc3": "/bkHouse/images/book3.png",
+      "imgsrc4": "/bkHouse/images/book1.png",
+      "imgsrc5": "/bkHouse/images/shouye_detail_more.png",
+      "title": "书名",
+      "address": "/bkHouse/images/icon_group.png",
+      "school": "青岛|山东科技大学"
+    },
+    {  
+      "id": 1, 
+      "icon1": "/bkHouse/images/icon2.png",
+      "describe": "青岛理工大学,贝壳舍青岛理工大学青岛理工大学,贝壳舍青岛理工大学",
+      "number": "发布了546本书籍",
+      "imgsrc1": "/bkHouse/images/book1.png",
+      "imgsrc2": "/bkHouse/images/book2.png",
+      "imgsrc3": "/bkHouse/images/book3.png",
+      "imgsrc4": "/bkHouse/images/book1.png",
+      "imgsrc5": "/bkHouse/images/shouye_detail_more.png",
+      "title": "书名",
+      "address": "/bkHouse/images/icon_group.png",
+      "school": "青岛|山东科技大学"
+    }
+   
+  ]
+}

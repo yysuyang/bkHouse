@@ -1,0 +1,28 @@
+<div class="m-index">
+  <div class="l-container"></div>
+  <footer>
+  	<ul>
+  		<li class="active" action-type="switch.tabs" data-tag="home">
+  			<i  class="yo-ico ">&#xe60c;</i>
+  			<p>购书</p>
+  		</li>
+  		<li class="yo-ico" action-type="switch.tabs" data-tag="flyBook">
+  			<i>&#xe610;</i>
+  			<p>漂流</p>
+  		</li>
+  		<li>
+  			<i class="yo-ico">&#xe6cc;</i>
+  			<p>售书</p>
+  		</li>
+  		<li class="yo-ico" action-type="switch.tabs" data-tag="message">
+  			<i>&#xe643;</i>
+  			<p>消息</p>
+  		</li>
+  		<li class="yo-ico" action-type="switch.tabs" data-tag="my">
+  			<i>&#xe621;</i>
+  			<p>我的</p>
+  		</li>
+  	</ul>
+  
+  </footer>
+</div>

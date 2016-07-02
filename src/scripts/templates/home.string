@@ -1,0 +1,125 @@
+<div class="m-home">
+      <header>
+       	<ul>
+       		<li>
+       			<i class="yo-ico">
+       				&#xe631;
+       			</i>
+       			<p>扫一扫</p>
+       		</li>
+       		<li>
+       			<input type="text" required="" placeholder="请输入搜索内容"/>
+       		</li>
+       		<li>
+       			<i class="yo-ico">
+       				&#xe614;
+       			</i>
+       		</li>
+       	</ul>
+      </header>
+     
+      <section spa-widget="scroll" data-scroll-id="homeHotScroll">
+      <div>
+      	  <div class="head">
+             <img src="/bkHouse/images/default_ptr_rotate.png" width="40" height="40"/>
+             <span>下拉刷新...</span>
+          </div>
+	        <div class="banner">
+						<div class="swiper-container" id="guide-swiper">
+							<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<img src="/bkHouse/images/pic1.png"/>
+									</div>
+									
+									<div class="swiper-slide">
+										<img src="/bkHouse/images/pic2.png"/>
+									</div>
+									<div class="swiper-slide">
+										<img src="/bkHouse/images/pic3.png"/>
+									</div>
+							  </div>
+							<!-- 如果需要分页器 -->
+							<div class="swiper-pagination"></div>
+						</div>
+		      </div>
+ 	
+				  <div class="booklist">
+						<div class="list" ms-repeat-value="livelist">
+							<div class="top">
+								<div  class="icon" >
+									<img ms-src="value[0].icon1" src="/bkHouse/images/icon1.png"/>
+								</div>
+								<div class="title">
+									<p ms-text="value[0].describe"></p>
+									<p ms-text="value[0].number" class="gray"></p>
+								</div>
+							</div>
+							<div class="swiper-container guide1">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide" action-type="gotodetail">
+										<img  ms-src="value[0].imgsrc1" />
+										<p ms-text="value[0].title"></p>
+									</div>
+									<i>&nbsp;&nbsp;</i>
+									<div class="swiper-slide" action-type="gotodetail" >
+										<img ms-src="value[0].imgsrc2"/>
+										<p ms-text="value[0].title"></p>
+									</div>
+									<i>&nbsp;&nbsp;</i>
+									<div class="swiper-slide">
+										<img ms-src="value[0].imgsrc3"/>
+										<p ms-text="value[0].title"></p>
+									</div>
+									<i>&nbsp;&nbsp;</i>
+									<div class="swiper-slide">
+										<img ms-src="value[0].imgsrc4"/>
+										<p ms-text="value[0].title"></p>
+									</div>
+									<i>&nbsp;&nbsp;</i>
+									<div class="swiper-slide">
+										<img ms-src="value[0].imgsrc5"/>
+										<p ms-text="value[0].title"></p>
+									</div>
+								</div>
+							</div>
+							<!--<div class="container" spa-widget="scroll" data-scroll-id="lifenav-scroll" >
+								<ul >
+									<li>	
+										<img action-type="gotodetail" ms-src="value[0].imgsrc1" />
+										<p ms-text="value[0].title"></p>	
+									</li>
+									<li>&nbsp;&nbsp;</li>
+									<li>
+										<img ms-src="value[0].imgsrc2"/>
+										<p ms-text="value[0].title"></p>
+									</li>
+									<li>&nbsp;&nbsp;</li>
+									<li>
+										<img ms-src="value[0].imgsrc3"/>
+										<p ms-text="value[0].title"></p>
+									</li>
+									<li>
+										<img ms-src="value[0].imgsrc4"/>
+										<p ms-text="value[0].title"></p>
+									</li>
+									<li>&nbsp;&nbsp;</li>
+									<li>
+										<img ms-src="value[0].imgsrc4"/>
+										<p ms-text="value[0].title"></p>
+									</li>
+								</ul>
+							</div>-->
+							<div class="address">
+								<img ms-src="value[0].address"/>
+								<i ms-text="value[0].school"></i>
+							</div>
+						</div>
+				</div>
+				<div class="foot">
+           <img src="/bkHouse/images/default_ptr_rotate.png" width="40" height="40"/>
+           <span>上拉刷新...</span>
+        </div>
+	  </div>
+    </section>
+    
+</div>
